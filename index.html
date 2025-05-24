@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Галерея животных</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <h1 class="page__title">Галерея животных</h1>
+    <div class="controls">
+      <select class="controls__select" id="animalSelect">
+        <option value="dog">Собаки</option>
+        <option value="cat">Кошки</option>
+      </select>
+      <button class="button" id="loadButton">Загрузить картинки</button>
+    </div>
+    <div class="loader" id="loader"></div>
+    <div class="gallery" id="galleryContainer"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
